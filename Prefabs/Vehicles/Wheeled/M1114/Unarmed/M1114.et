@@ -1,0 +1,64 @@
+Vehicle : "{77A1A8606999B00D}Prefabs/Vehicles/Wheeled/M1114/M1114_4.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{65A40406EB84802A}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{F4429E977F4FCE8A}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body.emat"
+    }
+    MaterialAssignClass "{65A40406EB848051}" {
+     SourceMaterial "HMMWV_Body_Details"
+     AssignedMaterial "{47D690F3CF4880DA}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Details.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#TRC-Vehicle_M1114_Name (#TRC_Time_1990)"
+    Icon "{943873C801ED95B8}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Offroad.edds"
+    m_Image "{2A61977308CEE749}UI/EditorPreviews/Vehicles/Wheeled/M1114/Unarmed/M1114_Early.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Seats_rear {
+     Prefab "{A0CE27FC69B974F3}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_seats_rear.et"
+    }
+    RegisteringComponentSlotInfo Rollbar {
+     Prefab "{071D9DAE9A73A939}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_rollbar.et"
+    }
+    RegisteringComponentSlotInfo Tailgate {
+     Prefab "{6A56D793EF0E2543}Prefabs/Vehicles/Wheeled/M998/VehParts/M1114_tailgate.et"
+    }
+    RegisteringComponentSlotInfo Mirrors {
+     Prefab "{5B71B9240C81E8EE}Prefabs/Vehicles/Wheeled/M998/VehParts/M1114_mirrors_01.et"
+    }
+    RegisteringComponentSlotInfo Radiator {
+     Prefab "{D20F9D743C928A9E}Prefabs/Vehicles/Wheeled/M1114/VehParts/Additions/Radiator/VehPart_M1114_Radiator.et"
+    }
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{717C86DC5B3BC151}Prefabs/Vehicles/Wheeled/M1114/VehParts/Unarmed/M1114_roof_Early_Unarmed.et"
+    }
+    RegisteringComponentSlotInfo Dirt_Cover {
+     Prefab "{CA47F8A298369A04}Prefabs/Vehicles/Wheeled/M1114/VehParts/Additions/DirtCover/VehPart_M1114_DirtCover.et"
+    }
+    RegisteringComponentSlotInfo TEL_Left {
+    }
+    RegisteringComponentSlotInfo TEL_Right {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Radio_Stand {
+     Prefab "{52DAF32B8CE21E15}Prefabs/Vehicles/Wheeled/M1114/VehParts/Additions/RadioStand/VehPart_M1114_RadioStand.et"
+    }
+    RegisteringComponentSlotInfo Radio {
+     Prefab ""
+    }
+    RegisteringComponentSlotInfo Bumper {
+     Prefab "{18892F589483F1A3}Prefabs/Vehicles/Wheeled/M1114/VehParts/Additions/Bumper/VehPart_M1114_Bumper.et"
+    }
+   }
+  }
+ }
+ coords 82.062 1 1221.138
+}

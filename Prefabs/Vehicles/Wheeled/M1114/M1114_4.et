@@ -1,0 +1,207 @@
+Vehicle : "{BB57B86A46E76C65}Prefabs/Vehicles/Wheeled/M1114/M1114_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{65A40403741F207C}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{F4429E977F4FCE8A}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body.emat"
+    }
+    MaterialAssignClass "{65A40403741F2061}" {
+     SourceMaterial "HMMWV_Body_Details"
+     AssignedMaterial "{47D690F3CF4880DA}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Details.emat"
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    CargoCompartmentSlot passenger_r01 : "{9BD4548866DA1807}Prefabs/Vehicles/Core/Configs/CargoCompartment_Base.conf" {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "door_r01" "passenger_r01"
+      }
+      UIInfo SCR_ActionUIInfo "{65A404077C18436E}" {
+       Name "#AR-UserAction_GetIn"
+       Icon "{04EF6B438A9F69A1}UI/Textures/UserActions/getinaction.edds"
+       m_sIconName "mountAsPassengerCommand"
+      }
+      CanAggregate 1
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{509D56665A8C6923}" {
+      ParentContextList {
+       "door_r01_int"
+      }
+      UIInfo SCR_ActionUIInfo "{509D56665C8E044F}" {
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_r01"
+      }
+      UIInfo SCR_ActionUIInfo "{509D56666CE81B88}" {
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "passenger_r01"
+       }
+       UIInfo SCR_ActionUIInfo "{65A404077C184297}" {
+        Name "#AR-UserAction_RemoveCasualty"
+        m_sIconName "use"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E00C44348}" {
+       ParentContextList {
+        "door_r01" "passenger_r01"
+       }
+       UIInfo SCR_ActionUIInfo "{65A404077C184293}" {
+        Name "#AR-UserAction_RemoveCasualty"
+        m_sIconName "use"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "codriver_idle"
+     }
+     ForcedFreeLook 1
+     SeatType 1
+     DoorInfoList {
+      1
+     }
+     BaseCoverage 0
+     ContextName "passenger_r01"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{65A404077C184288}" {
+      m_sDefaultOccupantPrefab "{84029128FA6F6BB9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_GL.et"
+     }
+     m_fFreelookAimLimitOverrideLeft -160
+     m_fFreelookAimLimitOverrideRight 160
+     m_fFreelookCameraNeckFollowTraverse 1
+    }
+    CargoCompartmentSlot Passenger_l02 {
+     CompartmentAction SCR_GetInUserAction "{65A404077C184285}" {
+      ParentContextList {
+       "door_l02" "passenger_l02"
+      }
+      UIInfo SCR_ActionUIInfo "{65A404077C184282}" {
+       Name "#AR-UserAction_GetIn"
+       Icon "{04EF6B438A9F69A1}UI/Textures/UserActions/getinaction.edds"
+       m_sIconName "mountAsPassengerCommand"
+      }
+      CanAggregate 1
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{65A404077C184281}" {
+      ParentContextList {
+       "door_l02_int"
+      }
+      UIInfo SCR_ActionUIInfo "{65A404077C1842BE}" {
+       Name "#AR-UserAction_GetOut"
+       m_sIconName "getOutCommand"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{65A404077C1842BC}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{65A404077C1842BB}" {
+      ParentContextList {
+       "passenger_l02"
+      }
+      UIInfo SCR_ActionUIInfo "{65A404077C1842B9}" {
+       Name "#AR-UserAction_SwitchSeat"
+       m_sIconName "mountAsPassengerCommand"
+      }
+      Duration 0.5
+      CanAggregate 1
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{65A404077C1842B7}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       UIInfo SCR_ActionUIInfo "{65A404077C1842B4}" {
+        Name "#AR-UserAction_RemoveCasualty"
+        m_sIconName "use"
+       }
+       Duration 1
+       CanAggregate 1
+       "Sort Priority" 8
+       m_bInteriorOnly 1
+      }
+      SCR_RemoveCasualtyUserAction "{65A404077C1842AB}" {
+       ParentContextList {
+        "door_l02" "passenger_l02"
+       }
+       UIInfo SCR_ActionUIInfo "{65A404077C1842A8}" {
+        Name "#AR-UserAction_RemoveCasualty"
+        m_sIconName "use"
+       }
+       Duration 1
+       CanAggregate 1
+       "Sort Priority" 8
+       m_bExteriorOnly 1
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_01_idle"
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 0
+     SeatType 2
+     DoorInfoList {
+      2
+     }
+     UIInfo UIInfo "{65A404077C1842A3}" {
+      Name "#AR-VehiclePosition_Passenger"
+     }
+     BaseCoverage 0
+     ContextName "passenger_l02"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{65A404077C1842A1}" {
+      m_sDefaultOccupantPrefab "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et"
+     }
+     m_fFreelookAimLimitOverrideLeft -160
+     m_fFreelookAimLimitOverrideRight 160
+     m_fFreelookCameraNeckFollowTraverse 1
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Seats_rear {
+     Prefab "{A0CE27FC69B974F3}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_seats_rear.et"
+    }
+    RegisteringComponentSlotInfo Rollbar {
+     Prefab "{071D9DAE9A73A939}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_rollbar.et"
+    }
+    RegisteringComponentSlotInfo Tailgate {
+     Prefab "{6A56D793EF0E2543}Prefabs/Vehicles/Wheeled/M998/VehParts/M1114_tailgate.et"
+    }
+    RegisteringComponentSlotInfo Mirrors {
+     Prefab "{5B71B9240C81E8EE}Prefabs/Vehicles/Wheeled/M998/VehParts/M1114_mirrors_01.et"
+    }
+    RegisteringComponentSlotInfo Radiator {
+     Prefab "{D20F9D743C928A9E}Prefabs/Vehicles/Wheeled/M1114/VehParts/Additions/Radiator/VehPart_M1114_Radiator.et"
+    }
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{8DB27FA5CCE842D9}Prefabs/Vehicles/Wheeled/M1114/VehParts/M1114_roof_Early.et"
+    }
+    RegisteringComponentSlotInfo Radio_Stand {
+     Prefab "{52DAF32B8CE21E15}Prefabs/Vehicles/Wheeled/M1114/VehParts/Additions/RadioStand/VehPart_M1114_RadioStand.et"
+    }
+    RegisteringComponentSlotInfo Radio {
+     Prefab ""
+    }
+    RegisteringComponentSlotInfo SpareTire {
+     Prefab "{DA4A38E0DB939049}Prefabs/Vehicles/Wheeled/M1114/VehParts/Additions/TireHolder/M1114_sparetire_holder.et"
+    }
+    RegisteringComponentSlotInfo Bumper {
+     Prefab "{18892F589483F1A3}Prefabs/Vehicles/Wheeled/M1114/VehParts/Additions/Bumper/VehPart_M1114_Bumper.et"
+    }
+   }
+  }
+ }
+ coords 69.446 1 1232.799
+}

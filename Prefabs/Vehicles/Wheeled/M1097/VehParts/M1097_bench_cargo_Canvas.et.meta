@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4C2C87BA0556B330}Prefabs/Vehicles/Wheeled/M1097/VehParts/M1097_bench_cargo_Canvas.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

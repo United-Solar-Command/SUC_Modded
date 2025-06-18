@@ -1,0 +1,10 @@
+MatPBRBasic {
+ Color 0 0 0 1
+ SpecularMul 0.53
+ RoughnessScale 1.349
+ DielectricReflectance 0.047
+ CavityFromAO 0
+ BCRMap "{650A1E9EE397D277}Assets/Vehicles/Wheeled/Detailing/Radio_Stand/Data/radio_Material.001_BCR.edds"
+ NormalPower 1.842
+ NMOMap "{5DD2A50C3AE080E9}Assets/Vehicles/Wheeled/Detailing/Radio_Stand/Data/radio_Material.001_NMO.edds"
+}

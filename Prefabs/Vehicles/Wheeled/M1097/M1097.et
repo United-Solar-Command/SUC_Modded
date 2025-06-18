@@ -1,0 +1,50 @@
+Vehicle : "{5C49AD69A8D7AB0A}Prefabs/Vehicles/Wheeled/M1097/M1097_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{65A4040130B0597A}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{F4429E977F4FCE8A}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body.emat"
+    }
+    MaterialAssignClass "{65A4040130B0595E}" {
+     SourceMaterial "HMMWV_Body_Details"
+     AssignedMaterial "{47D690F3CF4880DA}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Details.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{936FDDAD90A39F60}UI/EditorPreviews/Vehicles/Wheeled/M1097/M1097.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{81030F4B5CA81A61}Prefabs/Vehicles/Wheeled/M1097/VehParts/M1097_Roof.et"
+    }
+    RegisteringComponentSlotInfo Doors {
+     Prefab "{5A33778682765355}Prefabs/Vehicles/Wheeled/M1097/VehParts/M1097_doors_front.et"
+    }
+    RegisteringComponentSlotInfo Rollbar {
+     Prefab "{071D9DAE9A73A939}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_rollbar.et"
+    }
+    RegisteringComponentSlotInfo Antenna_rear {
+     Prefab "{1C227958156F0497}Prefabs/Vehicles/Wheeled/M998/VehParts/M1114_antenna_rear.et"
+    }
+    RegisteringComponentSlotInfo Tailgate {
+     Prefab "{6A56D793EF0E2543}Prefabs/Vehicles/Wheeled/M998/VehParts/M1114_tailgate.et"
+    }
+    RegisteringComponentSlotInfo Mirrors {
+     Prefab "{5B71B9240C81E8EE}Prefabs/Vehicles/Wheeled/M998/VehParts/M1114_mirrors_01.et"
+    }
+    RegisteringComponentSlotInfo Cargo_Rack {
+     Prefab "{97B6439C07D12FBA}Prefabs/Vehicles/Wheeled/M1097/VehParts/M1097_bench_cargo.et"
+    }
+    RegisteringComponentSlotInfo Radio_Stand {
+     Prefab "{52DAF32B8CE21E15}Prefabs/Vehicles/Wheeled/M1114/VehParts/Additions/RadioStand/VehPart_M1114_RadioStand.et"
+    }
+   }
+  }
+ }
+}

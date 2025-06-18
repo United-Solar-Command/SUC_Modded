@@ -1,0 +1,8 @@
+MatPBRBasic {
+ Color 0 0 0 1
+ SpecularMul 0.53
+ RoughnessScale 1.349
+ BCRMap "{92AB14AB2E4F7C76}Assets/Vehicles/Wheeled/Detailing/Closed_Roof_Hatch/Data/close_hatch_hmmwv_body_2_BCR.edds"
+ NormalPower 1.842
+ NMOMap "{AA73AF39F7382EE8}Assets/Vehicles/Wheeled/Detailing/Closed_Roof_Hatch/Data/close_hatch_hmmwv_body_2_NMO.edds"
+}

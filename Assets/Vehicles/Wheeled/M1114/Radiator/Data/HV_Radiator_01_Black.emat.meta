@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FEF9A1A997699979}Assets/Vehicles/Wheeled/M1114/Radiator/Data/HV_Radiator_01_Black.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

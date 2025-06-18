@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0F44FEE76E3ECE08}Assets/Vehicles/Wheeled/M1114/Dukes/Data/HV_Radio_Black.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

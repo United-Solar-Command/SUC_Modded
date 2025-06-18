@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{BD0155EC23E7B7D4}Prefabs/Vehicles/Wheeled/M1097/VehParts/VehPart_M1097_Canvas.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

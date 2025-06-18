@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{18892F589483F1A3}Prefabs/Vehicles/Wheeled/M1114/VehParts/Additions/Bumper/VehPart_M1114_Bumper.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

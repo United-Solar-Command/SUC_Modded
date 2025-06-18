@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D76B74D36A8F8619}Assets/Vehicles/Wheeled/Detailing/Radio_Stand/Data/HV_RadioStant_Black.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

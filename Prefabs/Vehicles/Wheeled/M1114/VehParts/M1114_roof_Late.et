@@ -1,0 +1,56 @@
+GenericEntity : "{1F5BC2DEF2C65B2F}Prefabs/Vehicles/Wheeled/M1114/VehParts/M1114_roof_Early.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{65A40403BC723317}" {
+     SourceMaterial "Base"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{54F2B37F3202E099}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{F4C17C743320A7CC}Prefabs/Vehicles/Wheeled/M1114/VehParts/M1114_roof_closed.et"
+    }
+    RegisteringComponentSlotInfo Duke_1 {
+     Enabled 0
+     Prefab "{9DB5AAD169A4EADE}Prefabs/Vehicles/Wheeled/M1114/VehParts/Additions/Dukes/VehPart_M1114_Duke.et"
+    }
+    RegisteringComponentSlotInfo Duke_2 {
+     Offset 0.8513 0.3417 -2.0656
+     Enabled 1
+     Prefab "{9DB5AAD169A4EADE}Prefabs/Vehicles/Wheeled/M1114/VehParts/Additions/Dukes/VehPart_M1114_Duke.et"
+    }
+    RegisteringComponentSlotInfo Roof_Armor {
+     Enabled 1
+     Prefab "{E4BB9AD80008B7E3}Prefabs/Vehicles/Wheeled/M1114/VehParts/Armor/Roof/VehPart_M1114_Roof_Armor.et"
+    }
+    RegisteringComponentSlotInfo Hatch_Closed {
+     Prefab "{30E92D28F65621C7}Prefabs/Vehicles/Wheeled/M1114/VehParts/Armor/Roof/VehPart_M1114_Roof_Hatch_Closed.et"
+    }
+    RegisteringComponentSlotInfo Door_L01 {
+     Prefab "{694CCB7469E996CB}Prefabs/Props/VehicleParts/Doors/M1114/Late/Door_M1114_L1_Late.et"
+    }
+    RegisteringComponentSlotInfo Door_L02 {
+     Prefab "{67528F3C541E9911}Prefabs/Props/VehicleParts/Doors/M1114/Late/Door_M1114_L2_Late.et"
+    }
+    RegisteringComponentSlotInfo Door_R01 {
+     Prefab "{6ACC43C5E6E0ED5B}Prefabs/Props/VehicleParts/Doors/M1114/Late/Door_M1114_R1_Late.et"
+    }
+    RegisteringComponentSlotInfo Door_R02 {
+     Prefab "{64D2078DDB17E281}Prefabs/Props/VehicleParts/Doors/M1114/Late/Door_M1114_R2_Late.et"
+    }
+    RegisteringComponentSlotInfo Antenna {
+     Enabled 1
+     Prefab "{1C227958156F0497}Prefabs/Vehicles/Wheeled/M998/VehParts/M1114_antenna_rear.et"
+    }
+    RegisteringComponentSlotInfo Antenna_02 {
+     Prefab "{1C227958156F0497}Prefabs/Vehicles/Wheeled/M998/VehParts/M1114_antenna_rear.et"
+    }
+   }
+  }
+ }
+ coords 135.823 1 1199.805
+}

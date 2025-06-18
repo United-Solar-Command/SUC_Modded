@@ -1,0 +1,15 @@
+GenericEntity : "{1CC8DD9D7F92ED2A}Prefabs/Props/Core/VehiclePart_Base.et" {
+ ID "51F6D6DE0C8B22AD"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{9AE5B7CB0A107073}Assets/Vehicles/Wheeled/Detailing/Radio_Stand/kiok_humvee_stant.xob"
+   Materials {
+    MaterialAssignClass "{65A40405D19950B2}" {
+     SourceMaterial "Material"
+     AssignedMaterial "{D76B74D36A8F8619}Assets/Vehicles/Wheeled/Detailing/Radio_Stand/Data/HV_RadioStant_Black.emat"
+    }
+   }
+  }
+ }
+ coords 82.277 1 1204.303
+}

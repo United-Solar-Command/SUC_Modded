@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{717C86DC5B3BC151}Prefabs/Vehicles/Wheeled/M1114/VehParts/Unarmed/M1114_roof_Early_Unarmed.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,43 @@
+GenericEntity : "{1F5BC2DEF2C65B2F}Prefabs/Vehicles/Wheeled/M1114/VehParts/M1114_roof_Early.et" {
+ ID "4B42E71698F5739C"
+ components {
+  SlotManagerComponent "{54F2B37F3202E099}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Duke_1 {
+     Prefab "{9DB5AAD169A4EADE}Prefabs/Vehicles/Wheeled/M1114/VehParts/Additions/Dukes/VehPart_M1114_Duke.et"
+    }
+    RegisteringComponentSlotInfo Duke_2 {
+     Prefab "{9DB5AAD169A4EADE}Prefabs/Vehicles/Wheeled/M1114/VehParts/Additions/Dukes/VehPart_M1114_Duke.et"
+    }
+    RegisteringComponentSlotInfo Roof_Armor {
+     Prefab "{E4BB9AD80008B7E3}Prefabs/Vehicles/Wheeled/M1114/VehParts/Armor/Roof/VehPart_M1114_Roof_Armor.et"
+    }
+    RegisteringComponentSlotInfo Hatch_Closed {
+     Enabled 1
+     Prefab "{30E92D28F65621C7}Prefabs/Vehicles/Wheeled/M1114/VehParts/Armor/Roof/VehPart_M1114_Roof_Hatch_Closed.et"
+    }
+    RegisteringComponentSlotInfo Door_L01 {
+     Prefab "{43F06AA2E0CBF298}Prefabs/Props/VehicleParts/Doors/M1114/Early/Door_M1114_L1_Early.et"
+    }
+    RegisteringComponentSlotInfo Door_L02 {
+     Prefab "{03004B8756D770E0}Prefabs/Props/VehicleParts/Doors/M1114/Early/Door_M1114_L2_Early.et"
+    }
+    RegisteringComponentSlotInfo Door_R01 {
+     Prefab "{0469F911138E392E}Prefabs/Props/VehicleParts/Doors/M1114/Early/Door_M1114_R1_Early.et"
+    }
+    RegisteringComponentSlotInfo Door_R02 {
+     Prefab "{4499D834A592BB6B}Prefabs/Props/VehicleParts/Doors/M1114/Early/Door_M1114_R2_Early.et"
+    }
+    RegisteringComponentSlotInfo Antenna {
+     Prefab "{1C227958156F0497}Prefabs/Vehicles/Wheeled/M998/VehParts/M1114_antenna_rear.et"
+    }
+    RegisteringComponentSlotInfo Antenna_02 {
+     Prefab "{1C227958156F0497}Prefabs/Vehicles/Wheeled/M998/VehParts/M1114_antenna_rear.et"
+    }
+   }
+  }
+ }
+}

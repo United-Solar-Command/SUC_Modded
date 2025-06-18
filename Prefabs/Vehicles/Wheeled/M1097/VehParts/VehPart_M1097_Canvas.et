@@ -1,0 +1,25 @@
+GenericEntity : "{25895C54FE021EE6}Prefabs/Vehicles/Core/Vehicle_Canvas_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{617B587AB066E5FA}Assets/Vehicles/Wheeled/M1097/Canvas/M1097_Canvas.xob"
+   Materials {
+    MaterialAssignClass "{65A404019A213BBD}" {
+     SourceMaterial "M1097_Benches"
+     AssignedMaterial "{37F0DC9E5B61FDDF}Assets/Vehicles/Wheeled/M1097/Cargo_Racks/Data/M1097_Benches.emat"
+    }
+    MaterialAssignClass "{65A404019A213BA8}" {
+     SourceMaterial "M1097_Canvas"
+     AssignedMaterial "{2C5B36BF806EBA1B}Assets/Vehicles/Wheeled/M1097/Canvas/Data/M1097_Canvas.emat"
+    }
+   }
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone Canvas {
+    }
+   }
+  }
+ }
+ coords 79.064 2.016 1239.877
+}
